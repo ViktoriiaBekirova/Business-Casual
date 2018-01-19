@@ -1,0 +1,29 @@
+.rowSliders {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  text-transform: capitalize;
+  font-family: "Josefin Slab", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 1.1; }
+  .rowSliders .flexslider {
+    border: none; }
+  .rowSliders .brand-before {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #777; }
+  .rowSliders .brand-name {
+    font-size: 4em;
+    letter-spacing: 1px; }
+  .rowSliders .tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px; }
+  .rowSliders .start {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 400; }

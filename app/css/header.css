@@ -1,0 +1,90 @@
+.brand {
+  padding: 30px 0 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff; }
+
+.address-bar {
+  padding: 0 0 40px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #fff; }
+
+.menu {
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  z-index: 100; }
+  .menu_container {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center; }
+    .menu_container-link {
+      display: inline-block; }
+      .menu_container-link a {
+        text-decoration: none;
+        padding: 35px;
+        color: #777; }
+        .menu_container-link a:hover {
+          color: #000; }
+  .menu_brand {
+    display: none;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 23px;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #777; }
+  .menu .icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 8px; }
+    .menu .icon:hover {
+      background-color: #ddd;
+      -webkit-border-radius: 5px;
+              border-radius: 5px; }
+    .menu .icon .fa {
+      color: #888;
+      font-size: 22px;
+      border: 1px solid #ddd;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      padding: 5px 10px 5px 13px; }
+
+@media screen and (max-width: 768px) {
+  .brand {
+    display: none; }
+  .address-bar {
+    display: none; }
+  .menu {
+    background-color: #f8f8f8; }
+    .menu_container {
+      display: none;
+      text-align: left;
+      border: 1px solid #e7e7e7; }
+      .menu_container-link {
+        display: block;
+        font-weight: 400;
+        font-size: 14px; }
+        .menu_container-link a {
+          padding: 10px 0 10px 15px;
+          line-height: 20px; }
+    .menu_brand {
+      display: inline-block; }
+    .menu .icon {
+      display: inline-block; } }
