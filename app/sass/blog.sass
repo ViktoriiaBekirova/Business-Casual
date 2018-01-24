@@ -1,0 +1,70 @@
+@import "smart-grid"
+.blog
+  +row-flex()
+  justify-content: center
+  flex-wrap: wrap
+  .img-blog
+    +col()
+    +size(12)
+    min-width: 100%
+    height: 100%
+    margin: 0 auto
+    border: #999999 solid 1px
+  h2
+    +col()
+    +size(12)
+    font-size: 30px
+    text-transform: uppercase
+    font-family: "Josefin Slab", sans-serif
+    font-weight: 700
+    letter-spacing: 1px
+    margin: 20px auto 10px
+    text-align: center
+    small
+      font-weight: 400
+      line-height: 1
+      color: #777
+  p
+    +col()
+    +size(12)
+    font-size: 1.25em
+    line-height: 1.6
+    color: #000
+    margin: 0 0 10px
+    text-align: center
+  button
+    padding: 10px 16px
+    font-size: 18px
+    line-height: 1.33
+    border-radius: 6px
+    color: #333
+    background-color: #fff
+    border-color: #ccc
+    cursor: pointer
+    &:hover
+      background-color: #AAAAAA
+.page
+  margin: 20px 0
+  text-align: center
+  .page_row1
+     float: left
+  .page_row2
+     float: right
+  .page_row1 a, .page_row2 a
+     display: inline-block
+     padding: 5px 14px
+     background-color: #fff
+     border: 1px solid #ddd
+     border-radius: 15px
+     color: #428bca
+.page .clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+
+@media screen and (max-width: 768px)
+  .blog h2
+    font-size: 24px
+  .blog p
+    font-size: 1.1em

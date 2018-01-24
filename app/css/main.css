@@ -1632,6 +1632,105 @@ footer {
     .content .content_box h3 {
       font-size: 18px; } }
 
+.blog {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  flex-wrap: wrap; }
+  .blog .img-blog {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: -webkit-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: #999999 solid 1px; }
+  .blog h2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: -webkit-calc(100% - 10px);
+    width: calc(100% - 10px);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Josefin Slab", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px auto 10px;
+    text-align: center; }
+    .blog h2 small {
+      font-weight: 400;
+      line-height: 1;
+      color: #777; }
+  .blog p {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: -webkit-calc(100% - 10px);
+    width: calc(100% - 10px);
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+    margin: 0 0 10px;
+    text-align: center; }
+  .blog button {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    cursor: pointer; }
+    .blog button:hover {
+      background-color: #AAAAAA; }
+
+.page {
+  margin: 20px 0;
+  text-align: center; }
+  .page .page_row1 {
+    float: left; }
+  .page .page_row2 {
+    float: right; }
+  .page .page_row1 a, .page .page_row2 a {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    color: #428bca; }
+
+.page .clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media screen and (max-width: 768px) {
+  .blog h2 {
+    font-size: 24px; }
+  .blog p {
+    font-size: 1.1em; } }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
