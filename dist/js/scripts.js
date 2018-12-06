@@ -1,6 +1,6 @@
 // фиксированное меню при скроле страницы до него
 $(document).ready(function(){
-    var HeaderTop = $('.menu').offset().top; // координаты относительно начала страницы
+    var HeaderTop = $('.menu').offset().top;
     var pad = $('.menu').css('height');
 
     $(window).scroll(function(){
